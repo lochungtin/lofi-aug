@@ -1,0 +1,78 @@
+name: low_field_breast
+target_b0: 0.5
+output_spacing_mm: 2.0
+canvas_mm: 400.0
+output_scale:
+- 1514.7
+- 2824.2000000000003
+acquisition:
+  in_plane_mm:
+  - 3.8
+  - 4.4
+  slice_spacing_mm: 6.0
+  slice_thickness_mm:
+  - 4.5
+  - 6.0
+  slice_jitter_mm:
+  - 1.0
+  - 2.5
+  n_averages: 2
+  slice_axis: 2
+  pe_axis: 1
+  window: 0.2
+noise:
+  sigma:
+  - 0.04128
+  - 0.10434
+  physics: null
+ghost:
+  rms:
+  - 0.01
+  - 0.04
+  periodic: 0.5
+  period_lines:
+  - 10.0
+  - 24.0
+shading:
+  log_rms:
+  - 0.25139
+  - 0.40225
+  scale_mm:
+  - 70.0
+  - 110.0
+emi:
+  prob: 0.0
+  amplitude: 0.1
+fov:
+  size_mm:
+  - 345.0
+  - 358.0
+  warp_mm:
+  - 3.0
+  - 6.0
+  fade_mm:
+  - 10.0
+  - 22.0
+contrast:
+  values:
+  - 0.286
+  - 0.6024
+  - 0.657
+  - 0.7017
+  - 0.7443
+  - 0.7881
+  - 0.8298
+  - 0.8721
+  - 0.9146
+  - 0.9569
+  - 1.0
+  - 1.0434
+  - 1.0885
+  - 1.1328
+  - 1.1794
+  - 1.229
+  - 1.2998
+  - 1.3868
+  - 1.5235
+  - 1.776
+  - 3.1826
