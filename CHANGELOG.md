@@ -27,3 +27,9 @@ work on low-field open-magnet ones. Only intensities change, so labels stay exac
 - `LowFieldCorrupt` (dict transform; labels follow the image onto the output grid), MONAI
   (`LowFieldCorruptd`), TorchIO (`RandomLowField`).
 - CLI: `lofi profiles | corrupt | measure | calibrate`.
+
+## v0.1.0 (2026-11-23)
+
+### Feat
+
+- initial lofi-aug package [skip ci]
